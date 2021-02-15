@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "heroku-postbuild": "node src/index.js"
   },
   "dependencies": {
     "aws-sdk": "^2.843.0",
