@@ -5,15 +5,14 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
-    "heroku-postbuild": "node src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "aws-sdk": "^2.843.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.11.15",
+    "mongoose": "^5.11.16",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
     "multer-s3": "^2.9.0",
